@@ -1,0 +1,16 @@
+Package: uktrade
+Title: uktrade: An R package for Accessing and Analysing UK Trade data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniel", "Braby", , "daniel.braby@forestresearch.gov.uk", role = c("cre", "aut"))
+Description: Access archival trade data from UK Official Trade info (HMRC)
+    and easily filter and select on key categories
+License: {{ License }}
+URL: http://www.github.com/fr-dan/uktrade
+BugReports: http://www.github.com/fr-dan/uktrade/issues
+Imports: 
+    attempt,
+    curl,
+    jsonlite,
+    lubridate
+Encoding: UTF-8
